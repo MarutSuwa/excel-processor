@@ -1,0 +1,17 @@
+title: Excel Processor
+description: >- # this means to ignore newlines until "baseurl:"
+  This is the Excel Processor web app.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://MarutSuwa.github.io/excel-processor" # the base hostname & protocol for your site
+
+theme: jekyll-theme-primer
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
