@@ -1,0 +1,39 @@
+{
+  "name": "excel-processor",
+  "version": "1.5.0",
+  "description": "An Excel processing application",
+  "author": "Aom Team U",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.example.excelprocessor",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "files": [
+      "app.js",
+      "index.html",
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "package.json"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-builder": "^22.14.13"
+  },
+  "dependencies": {
+    "csv-parser": "^2.3.5",
+    "electron-context-menu": "^2.0.0",
+    "electron-store": "^7.0.2",
+    "electron-updater": "^4.3.9",
+    "exceljs": "^4.2.1",
+    "papaparse": "^5.4.1",
+    "xlsx": "^0.16.9"
+  }
+}
